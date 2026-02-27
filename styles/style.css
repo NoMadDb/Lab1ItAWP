@@ -1,0 +1,25 @@
+   .base{
+	   text-align: center;
+   }
+   h3{
+    text-align: justify;
+    color: purple;
+    font-weight: bold;
+   }
+   img{
+	   width: 600px;
+	   height: 250px;
+	   padding-left: 450px;
+   }
+   .base{
+    text-align: justify;
+    color: purple;
+    font-weight: bold;
+   }
+
+   .ttb{
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+    border-spacing: 3px;  
+   }

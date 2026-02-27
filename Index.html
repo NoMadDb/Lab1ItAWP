@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BUTIKAVTO</title>
+	
+	<link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+      <h5 class="base", style="color: yellow">BUTIKAVTO</h5>
+	  <h3>г.Могилёв, ул. Первомайская 29</h3>
+	  <h3>Добро пожаловать на сайт автокомпании BUTIKAVTO!<br></h3>
+	  
+    <div style="text-align: center;">
+	  <a href="services.html", style="padding-right: 20px; color: red;">Перечень услуг</a>
+	  <a href="Tovars.html", style="color: red;">Товары<br></a>
+    </div>
+
+	  <img src="images/logo.png"></img>
+
+    <script>
+      let name = prompt("Введите свою фамилию: ", "");
+      let fname = prompt("Введите свою имя: ", "");
+      let oname = prompt("Введите свою отчество: ", "");
+      let polnoe = confirm("Это вы? " + name + " " + fname + " " + oname);
+
+      if (polnoe) {
+      alert("Молодец, " + name + " " + fname + " " + oname);
+    } 
+    else {
+      alert("Ошибка данных!");
+    }
+
+      </script>
+  </body>
+</html>
